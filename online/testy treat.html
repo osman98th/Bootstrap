@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TastyTreat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="  https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            /* text-decoration: none; */
+        }
+
+        .navbar {
+            background-color: #fff8f8d0;
+            color: rgb(36, 12, 12);
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 30px;
+            align-items: center;
+            text-decoration: none;
+        
+        }
+        .navbar a{
+            text-decoration: none;
+        }
+
+        .container-fluid {      
+            color: white
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10px;
+            align-items: center;
+            text-transform: 5s;
+        
+        }
+
+        .container-fluid a:hover {
+            background-color: white;
+            padding: 10px;
+            color: rgb(61, 51, 51);
+            
+        }
+
+        .promo-banner {
+            background: linear-gradient(to right, #f8d7da, #fff3cd);
+            text-align: center;
+            padding: 5px;
+        }
+
+        .contact-section {
+            background-color: hsl(45, 8%, 90%);
+            padding: 5px;
+            text-align: center;
+        }
+
+        .offer-section {
+            background-color: #e31529b0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .offer-section-img {
+            width: 500px;
+            height: 100vh;
+        }
+
+        .cake-img {
+            width: 500px;
+            height: 200px;
+        }
+        .carousel-inner{
+            width: 100%;
+            height: 200px;
+        }
+
+        .section-title{
+            font-style: normal;
+            margin-bottom: 1 rem;
+            font-weight: 500px;
+        }
+
+    .promo-card img {
+      width: 100%;
+      height: 100px;
+    }
+    .promo-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+     .footer{
+            width: 100%;
+            height: 100vh;  
+            color: hsl(22, 92%, 48%); 
+        }
+
+     .footer img {
+            width: 100%;
+            height: 100vh;
+        }    
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div><strong>TastyTreat</strong></div> 
+        <input type="text" placeholder="Search here..." style="padding: 4px; width: 500px;">
+        <div>   
+            <span> TastyTreat Outlets  01797147515 </span> 
+            <a href="#"><i class="bi bi-person-circle"></i>
+                Account</a> 
+            <a href="#"><i class="bi bi-cart3"></i>card</a>
+        </div>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Cakes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pastry</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Fast Food & Snacks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Dessert & Sweets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Waffle</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Bread & Bun</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Beverage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Cookies & Toast</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Custom Cake</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Special Combo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Offer</a></li>
+                </ul>
+                <span class="navbar-text text-white">09613-451451</span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="Web-Banner-Celebration-Cake.jpg" class="d-block w-100" alt="p">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="Premium-Chocolate-Cake.jpg" class="d-block w-100" alt="p">
+          </div>
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="Web-Banner-Celebration-Cake.jpg" class="d-block w-100" alt="p">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="Free-Home-Delivery-on-300tk-Order_01.png" class="d-block w-100" alt="p">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="Free-Home-Delivery-on-300tk-Order_01.png" class="d-block w-100" alt="p">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    <!-- Promo Banner -->
+    <div class="promo-banner">
+        <h2>10% OFF on Custom Cakes</h2>
+        <p>Online Only</p>
+
+        <div class="d-flex justify-content-center gap-3 mt-3">
+            <img src="cake.jpg" alt="#" class="cake-img">
+            <img src="card 1.jpg" alt="#" class="cake-img">
+            <img src="card.jpg" alt="#" class="cake-img">
+        </div>
+        <p class="text-muted">Starts from 2 kg</p>
+    </div>
+
+
+    <!-- Contact and Delivery Info -->
+    <div class="contact-section">
+        <img src="Premium-Chocolate-Cake.jpg" alt="">
+        <img src="Premium-Chocolate-Cake.jpg" alt="">
+        <img src="Premium-Chocolate-Cake.jpg" alt="">
+        <img src="Premium-Chocolate-Cake.jpg" alt="">
+        <h4>Call to Order: 09613-451-451</h4>
+        <p>Available from 9 am - 9 pm</p>
+        <h5 class="text-danger">FREE Home Delivery</h5>
+    </div>
+
+    <!-- Minimum Order Offer -->
+    <div class="offer-section">
+        <h4>Orders Over 299 Tk.</h4>
+        <div class="d-flex justify-content-center gap-3 mt-3">
+            <img src="card 1.jpg" alt="Dessert" class="cake-img">
+            <img src="card.jpg" alt="Burger" class="cake-img">
+            <img src="card.jpg" alt="Burger" class="cake-img">
+        </div>
+        <small class="text-muted">*Delivery in 24 hours</small>
+    </div>
+
+            <!-- Promotions Section -->
+<div class="container py-5">
+    <h3 class="mb-4">Promotions</h3>
+    <div class="row g-4">
+        
+      <!-- Card 1 -->
+      <div class="col-md-3">
+        <div class="promo-card">
+          <img src="Premium-Chocolate-Cake.jpg" alt="Waffles">
+          <div class="p-3">
+            <h5>Buy 2 Get 1 Free Offer on Waffles</h5>
+            <p>21 days left</p>
+            <p><small>From 17-04-2025 to 31-05-2025</small></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-3">
+        <div class="promo-card">
+          <img src="Premium-Chocolate-Cake.jpg" alt="Treat Basket">
+          <div class="p-3">
+            <h5>161tk off on Treat Basket</h5>
+            <p>82 days left</p>
+            <p><small>From 05-03-2025 to 31-07-2025</small></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-3">
+        <div class="promo-card">
+          <img src="Premium-Chocolate-Cake.jpg" alt="Cake">
+          <div class="p-3">
+            <h5>15% off on All 1kg Cakes</h5>
+            <p>21 days left</p>
+            <p><small>From 25-04-2025 to 31-05-2025</small></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-3">
+        <div class="promo-card">
+          <img src="Free-Home-Delivery-on-300tk-Order_01.png" alt="Gift Basket">
+          <div class="p-3">
+            <h5>121tk off on Tasty Gift Basket</h5>
+            <p>82 days left</p>
+            <p><small>From 05-03-2025 to 31-07-2025</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- All Promotions Button -->
+  <div class="text-center mb-5">
+    <a href="#" class="btn btn-danger">All Promotions</a>
+  </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-dark pt-5">
+        <div class="container-fluid">
+            <div class="row text-center w-100">
+                <div class="col-12 w-100">
+                    <h2 class="text-danger fw-bold">SWEET & DESSERT</h2>
+                    <img src="Web-Banner-Celebration-Cake.jpg" alt="Laddu" class="mx-2" style="width: 500px; height:200px;">
+                    <img src="cake.jpg" alt="cake" class="mx-2"
+                        style="width: 500px;  height:200px;">
+                        <img src="Web-Banner-Celebration-Cake.jpg" alt="cake" class="mx-2"
+                        style="width: 500px;  height:200px;">
+                </div>
+
+                <div class="col-12 w-100">
+                    <h4 class="fw-bold">Get social</h4>
+                    <p>Join us in the group<br>and be the first to know all promotions and offers!</p>
+                    <div class="d-flex justify-content-center gap-4">
+                        <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#"><i class="bi bi-youtube fs-4"></i></a>
+                        <a href="#"><i class="bi bi-pinterest fs-4"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-4" />
+            <div class="row text-start w-100">
+                <div class="col-md-3">
+                    <h5 class="text-danger">My account</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Create account</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="text-danger">About Tasty Treat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Terms & conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Cancellation, Return & Refund Policy</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-3">
+                    <h5 class="text-danger">Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About your order</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Comparison list</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="text-danger">Tasty Treat Contact Us</h5>
+                    <p>Dhaka, PRAN-RFL Center<br>
+                        09613451451<br>
+                        Mon-Sun 9.00Am - 8.00Pm<br>
+                        <a href="mailto:info@tastytreatbd.com">info@tastytreatbd.com</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <small>&copy; 2021 Tastytreatbd.com</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Icons CDN -->
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
